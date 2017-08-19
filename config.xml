@@ -8,6 +8,7 @@
         <splash src="img/splash.png" density="land-mdpi"/>
         <splash src="img/splash.png" density="land-xhdpi"/>
     </platform>
+    <preference name="SplashScreenDelay" value="10000" />
     <name>HomeScreen</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
