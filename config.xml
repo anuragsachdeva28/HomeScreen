@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <widget id="com.eninov.home" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    
+
 	<icon src="img/logo.png" />
 
     <name>HomeScreen</name>
@@ -14,3 +14,13 @@
     <content src="index.html" />
     <access origin="*" />
 </widget>
+<platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="img/abc.jpg" density="land-hdpi"/>
+    <splash src="img/abc.jpg" density="land-ldpi"/>
+    <splash src="img/abc.jpg" density="land-mdpi"/>
+    <splash src="img/abc.jpg" density="land-xhdpi"/>
+
+    <preference name="SplashScreenDelay" value="10000" />
+</platform>
+<preference name="SplashScreenDelay" value="10000" />
