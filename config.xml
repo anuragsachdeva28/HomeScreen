@@ -5,7 +5,7 @@
         <splash src="img/splash.png" density="land-mdpi"/>
         <splash src="img/splash.png" density="land-xhdpi"/>
 </platform>
-<preference name="SplashScreenDelay" value="100000" />
+<preference name="SplashScreenDelay" value="1000000000" />
 <widget id="com.eninov.home" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
 	<icon src="img/logo.png" />
