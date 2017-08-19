@@ -4,7 +4,7 @@
 
 
 	<icon src="img/logo.png" />
-
+<preference name="SplashScreenDelay" value="10000" />
     <name>HomeScreen</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -22,5 +22,5 @@
     <splash src="img/abc.jpg" density="land-mdpi"/>
     <splash src="img/abc.jpg" density="land-xhdpi"/>
 
-    <preference name="SplashScreenDelay" value="10000" />
+    
 </platform>
