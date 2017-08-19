@@ -3,6 +3,19 @@
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title></title>
+	<script>
+		var exec = require('cordova/exec');
+
+		var splashscreen = {
+	    	show:function() {
+	        	exec(null, null, "SplashScreen", "show", []);
+	    	},
+	    	hide:function() {
+	        	exec(null, null, "SplashScreen", "hide", []);
+	    	}
+		};
+		module.exports = splashscreen;
+	</script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<style type="text/css">
 		.row{
