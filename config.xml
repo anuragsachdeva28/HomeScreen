@@ -1,13 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <widget id="com.eninov.home" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <platform name="android">
-        <splash src="img/splash.png" density="land-hdpi"/>
-        <splash src="img/splash.png" density="land-ldpi"/>
-        <splash src="img/splash.png" density="land-mdpi"/>
-        <splash src="img/splash.png" density="land-xhdpi"/>
-</platform>
-<preference name="SplashScreenDelay" value="1000000000" />
+    
 	<icon src="img/logo.png" />
 
     <name>HomeScreen</name>
